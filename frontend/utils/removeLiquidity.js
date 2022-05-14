@@ -24,7 +24,7 @@ export const getTokensAfterRemove = async (
       provider
     )
 
-    const _totalSupply = await exchangeContract._totalSupply()
+    const _totalSupply = await exchangeContract.totalSupply()
     const _removeEther = _ethBalance.mul(removeLPTokenWei).div(_totalSupply)
     const _removeCD = cryptoDevTokenReserve.mul(removeLPTokenWei).div(_totalSupply)
 

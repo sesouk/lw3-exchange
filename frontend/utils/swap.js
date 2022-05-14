@@ -6,7 +6,7 @@ import {
   TOKEN_CONTRACT_ADDRESS,
 } from "../constants"
 
-export const getAmountofTokensReceivedFromSwap = async (
+export const getAmountOfTokensReceivedFromSwap = async (
   _swapAmountWei,
   provider,
   ethSelected,
